@@ -11,6 +11,10 @@ public class Main {
         number.subtract(one);
         System.out.println("number.real= " + number.getReal());
         System.out.println("number.imaginary= " + number.getImaginary());
+        ComplexNumber anotherNumber = new ComplexNumber(3,7);
+        anotherNumber.add(12,-45);
+        System.out.println("anotherNumber.real= "+anotherNumber.getReal());
+        System.out.println("anotherNumber.imaginary= "+anotherNumber.getImaginary());
 
     }
 }
